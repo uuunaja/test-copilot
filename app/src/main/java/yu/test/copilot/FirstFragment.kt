@@ -35,6 +35,10 @@ class FirstFragment : Fragment() {
         binding.buttonFirst.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
+        //secondd Button connect website https://www.google.co.th/
+        binding.buttonSecond.setOnClickListener {
+            findNavController().navigate(R.id.action_FirstFragment_to_WebFragment)
+        }
     }
 
     override fun onDestroyView() {
